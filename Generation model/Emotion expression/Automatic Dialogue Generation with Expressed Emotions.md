@@ -15,14 +15,14 @@ NCMへの感情のラベルの与え方を3通り試している。
 ## 手法のキモ
 以下の３手法を提案
 
-* Enc 
+Encoder
 
-$$ h^{En}_t, c^{En}_t = LSTM^{En}\(M\(x_i\), \[h^{En}_{t-1}\;c^{En}_{t-1}\] $$
+$$ h^{En}_t, c^{En}_t = LSTM^{En}\(M\(x_i\), \[h^{En}_{t-1}\;c^{En}_{t-1}\] $$ \\
 
-手法1 Enc-bef : $$ X={e, x_1, x_2, ..., x_m} $$
-手法2 Enc-aht : $$ X={x_1, x_2, ..., x_m, e} $$
+手法1 Enc-bef : $$ X={e, x_1, x_2, ..., x_m} $$ \\
+手法2 Enc-aht : $$ X={x_1, x_2, ..., x_m, e} $$ \\
 
-$$ h^{De}_t, c^{De}_t = LSTM^{De}\(M(x_i), \[h^{De}_{t-1}\;c^{De}_{t-1}\] $$
+$$ h^{De}_t, c^{De}_t = LSTM^{De}\(M(x_i), \[h^{De}_{t-1}\;c^{De}_{t-1}\] $$ \\
 
 手法3 Dec : same as (Li et al. 2016a).  $$ \[h^{De}_{t-1}\;c^{De}_{t-1};v_e\] $$
 
