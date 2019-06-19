@@ -10,22 +10,20 @@ for Computational Linguistics: Human Language Technologies, Volume 2 (Short Pape
 NCMへの感情のラベルの与え方を3通り試している。
 
 ## 先行研究と比べてここがすごい
-
+先行研究では試されていなかった、感情の与え方で精度を検証。エンコーダに与えるべきか(最初or最後),デコーダの各ステップで与えるべきか。
+それぞれを、作成した分類器の正解率と主観評価によって実験。
 
 ## 手法のキモ
 以下の３手法を提案
 
 Encoder
 
-$$ h^{En}_t, c^{En}_t = LSTM^{En}\(M\(x_i\), \[h^{En}_{t-1}\;c^{En}_{t-1}\] $$ \\
+手法1 Enc-bef : X={e, x_1, x_2, ..., x_m}  \\
+手法2 Enc-aht : X={x_1, x_2, ..., x_m, e}  \\
 
-手法1 Enc-bef : $$ X={e, x_1, x_2, ..., x_m} $$ \\
-手法2 Enc-aht : $$ X={x_1, x_2, ..., x_m, e} $$ \\
+Decoder
 
-$$ h^{De}_t, c^{De}_t = LSTM^{De}\(M(x_i), \[h^{De}_{t-1}\;c^{De}_{t-1}\] $$ \\
-
-手法3 Dec : same as (Li et al. 2016a).  $$ \[h^{De}_{t-1}\;c^{De}_{t-1};v_e\] $$
-
+手法3 Dec : same as (Li et al. 2016a). each step, feed emotion vectore (v_e) ... [h^(De)_(t-1);c^(De)_(t-1);v_e]
 
 ![figure1](https://github.com/AsaiSara/Scholar/blob/picture/Generation%20model/Emotion%20expression/Automatic_Emo2018.png)
 
@@ -39,7 +37,9 @@ $$ h^{De}_t, c^{De}_t = LSTM^{De}\(M(x_i), \[h^{De}_{t-1}\;c^{De}_{t-1}\] $$ \\
 
 # 評価尺度
 * 隠れ層600次元, optimizerはAdam, 学習率1e-4, 語彙数25000(Li et al. 2016a), LSTM, test data 50000 samples, training:evaluation = 95%:5%,
-* 作成した分類器で9感情に分類した正解率
+
+![figure1](https://github.com/AsaiSara/Scholar/blob/picture/Generation%20model/Emotion%20expression/Automatic_Emo2018_eval1.png)
+* 作成した分類器で9感情に分類した正解率：Decoder に入れる方法が全体的には一番高かった、Encoderに入れる方法はほぼ精度が同じ
 
 
 
