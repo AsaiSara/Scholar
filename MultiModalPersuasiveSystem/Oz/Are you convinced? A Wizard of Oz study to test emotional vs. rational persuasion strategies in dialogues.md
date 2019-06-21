@@ -1,12 +1,12 @@
-# [Are you convinced? A Wizard of Oz study to test emotional vs. rational
-persuasion strategies in dialogues](https://reader.elsevier.com/reader/sd/pii/S0747563215302867?token=3BB72B9B045EA41FB55B0B6EC2AD966E2476F3255DB6826DC994223B3B8EC1143B018CDCC71C7F90EC2C8DECDC41ADCD)
+# [Are you convinced? A Wizard of Oz study to test emotional vs. rational persuasion strategies in dialogues](https://reader.elsevier.com/reader/sd/pii/S0747563215302867token=3BB72B9B045EA41FB55B0B6EC2AD966E2476F3255DB6826DC994223B3B8EC1143B018CDCC71C7F90EC2C8DECDC41ADCD)
 
 ## 概要
 OzによるWebベースのテキストチャットを用いて、感情的か合理的かどちらの戦略のほうが説得(太極拳を勧める)に効果的であるか検証。
-* EP:EmotionalPositive
-* EN:EmotionalNegative
-* RP:RationalPositive
-* RN:RationalNegative の4つを比較
+* EP : EmotionalPositive
+* EN : EmotionalNegative
+* RP : RationalPositive
+* RN : RationalNegative の4つを比較
+
 結果では、感情的なポジティブな戦略が最も効果的であることが分かった。最後に自動化の話もしている。
 
 ## 先行研究と比べてここがすごい
@@ -17,7 +17,7 @@ OzによるWebベースのテキストチャットを用いて、感情的か合
 ## 手法のキモ
 テキストチャット形式のツールを作成し、4手法を明確に定義したうえで4人の説得者を訓練して被験者に説得を行う。
 それぞれの戦略をユーザの興味に基づいて順に使い分けていくことで、どの戦略に切り替えた時点で興味を持ったかを確認する。
-主観評価では興味を持ったかどうかの設問だけではなく、実際に追加情報について記載したチラシの希望した人数も比較している。
+主観評価では興味を持ったかどうかの設問だけではなく、実際に追加情報つきのチラシ希望人数も比較している。
 
 ## 有効性の評価
 
@@ -35,8 +35,8 @@ OzによるWebベースのテキストチャットを用いて、感情的か合
   興味度合いの設問に答えてもらう。
    * Wizardについて：4人。Wizard同士で訓練し合っていてすでに実験設計を把握済み。興味のあるなしは評価項目から判断するが、
    その理由をWizardは残しておく(返答がネガティブ、返答の長さが短いなど)
-  　
-  
+![chat1](https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface1.png)
+![chat2](https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface2.png)
 
 評価尺度
 
