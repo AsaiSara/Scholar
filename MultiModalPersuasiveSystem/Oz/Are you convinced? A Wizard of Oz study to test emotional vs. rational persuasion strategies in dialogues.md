@@ -21,7 +21,7 @@ OzによるWebベースのテキストチャットを用いて、感情的か合
 
 ## 有効性の評価
 
-# 実験詳細
+### 実験詳細
 * 被験者　52名(女性14名、男性38名)
   * テキストチャットで説得される→リンクの載ったチラシがいるか聞かれる→前半のチャットと後半のチャットについて設問に答える。
   (被験者は７人中一人が$50のアマゾンギフトカードが抽選でもらえる。)
@@ -38,7 +38,7 @@ OzによるWebベースのテキストチャットを用いて、感情的か合
 ![chat1](https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface1.png)
 ![chat2](https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface2.png)
 
-評価尺度
+### 評価尺度
 
 
 ## その他の議論
