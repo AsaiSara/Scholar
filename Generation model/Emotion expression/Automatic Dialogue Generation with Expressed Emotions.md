@@ -1,9 +1,9 @@
 # [Automatic Dialogue Generation with Expressed Emotions](https://www.aclweb.org/anthology/N18-2008)
 
 ## 著者
-Authors: Chenyang Huang, Osmar R. Za¨ıane, Amine Trabelsi, Nouha Dziri
+Chenyang Huang, Osmar R. Za¨ıane, Amine Trabelsi, Nouha Dziri
 ## 会議名
-Conference: Proceedings of the 2018 Conference of the North American Chapter of the Association 
+Proceedings of the 2018 Conference of the North American Chapter of the Association 
 for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)
 
 ## 概要
