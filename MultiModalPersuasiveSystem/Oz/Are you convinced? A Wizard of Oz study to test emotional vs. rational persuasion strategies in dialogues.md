@@ -50,10 +50,12 @@ H2. 感情的ポジティブな発言が最も説得性が高い
 ### 評価尺度と実験結果
 #### 1. チャットを行う前と後との**運動をしたいか**と**太極拳に興味があるか**についての主観評価結果でT検定を行う
 <img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_eval1.png" width="320px">
+
 * 運動をしたいかは有意差なし(したいという人数は減少)、太極拳への興味は優位に後のほうが高い
 
 #### 2. チャット後にチラシを求めた人数
 <img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_eval2.png" width="320px">
+
 * 36人/52人：チラシを求める、24人/36人：興味度が増加(Print&Interest group (PINT))
 * PINT groupはpre-chatでは他の被験者と有意な興味の差はなかったが、post-chatでは有意な差を出していた
 * PINT groupはRN,ENについては他の被験者よりも優位に低い興味度合いを出していた
@@ -61,6 +63,7 @@ H2. 感情的ポジティブな発言が最も説得性が高い
 #### 3.それぞれの戦略(前と後)について、ある戦略の使用度合いと興味度合いの相関
  * 恐らく pre-chat : EPはRPより前に合った場合、後に合った場合、ENはRNより前に合った場合、後に合った場合
 <img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_eval3.png" width="320px">
+
 * EPについてはRPより後に行った場合、EPを用いた場合と興味の値についてRPの使用時と比べて優位に正の相関があるため有効だと考えられる
 * ENについては逆の結果であり、RNを用いた後に優位に負の相関が出ている
 * RNについてはENの前でも後でも、負の相関が出ている
