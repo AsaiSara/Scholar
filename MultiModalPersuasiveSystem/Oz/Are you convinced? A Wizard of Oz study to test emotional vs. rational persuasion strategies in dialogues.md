@@ -61,7 +61,8 @@ H2. 感情的ポジティブな発言が最も説得性が高い
 * PINT groupはRN,ENについては他の被験者よりも優位に低い興味度合いを出していた
 
 #### 3.それぞれの戦略(前と後)について、ある戦略の使用度合いと興味度合いの相関
- * 恐らく pre-chat : EPはRPより前に合った場合、後に合った場合、ENはRNより前に合った場合、後に合った場合
+ * 恐らく pre-chat : EP(RP)はRP(EP)より前に使う場合、EN(RN)はRN(EN)より前に使う場合
+ * poset-chat : EP(RP)はRP(EP)より後に使う場合、EN(RN)はRN(EN)より前に使う場合
 <img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_eval3.png" width="320px">
 
 * EPについてはRPより後に行った場合、EPを用いた場合と興味の値についてRPの使用時と比べて優位に正の相関があるため有効だと考えられる
