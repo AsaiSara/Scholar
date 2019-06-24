@@ -61,7 +61,7 @@ H2. 感情的ポジティブな発言が最も説得性が高い
 
 3.それぞれの戦略(前と後)について、ある戦略の使用度合いと興味度合いの相関
 * 恐らく pre-chat : EPはRPより前に合った場合、後に合った場合、ENはRNより前に合った場合、後に合った場合
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_eval1.png" width="320px">
+<img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_eval3.png" width="320px">
 * EPについてはRPより後に行った場合、EPを用いた場合と興味の値についてRPの使用時と比べて優位に正の相関があるため有効だと考えられる
 * ENについては逆の結果であり、RNを用いた後に優位に負の相関が出ている
 * RNについてはENの前でも後でも、負の相関が出ている
