@@ -35,8 +35,7 @@ OzによるWebベースのテキストチャットを用いて、感情的か合
   興味度合いの設問に答えてもらう。
    * Wizardについて：4人。Wizard同士で訓練し合っていてすでに実験設計を把握済み。興味のあるなしは評価項目から判断するが、
    その理由をWizardは残しておく(返答がネガティブ、返答の長さが短いなど)
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface1.png"  width="160px">
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface2.png" width="160px">
+<img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface1.png"  width="320px"><img src="https://github.com/AsaiSara/Scholar/blob/picture/MultiModalPersuasiveSystem/Oz/Are_you_convinced2016_interface2.png" width="320px">
 
 ### 評価尺度
 
