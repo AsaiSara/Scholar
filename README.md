@@ -5,7 +5,7 @@
     読もうと思っている論文を Issue に上げる
     読んだ論文の要旨を、ファイルに纏める
 
-Other Format
+Format
 
     # [Title](URL)
 
