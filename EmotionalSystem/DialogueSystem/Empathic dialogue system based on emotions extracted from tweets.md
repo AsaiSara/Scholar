@@ -27,6 +27,7 @@ Marina del Ray, California — March 17 - 20, 2019
 4. 受け取ったユーザ発話を感情カテゴリに分類　(GoogleAPIを使用)
 5. 2.でカテゴリ分けされたツイートを選択し共感が最大化するようなツイートを選択(特に顔文字や！など主観的表現が多いもの)
 <img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_system.png"  width="400px">
+
 ## 有効性の評価
 どういった感情がニュース記事に対する対話で有効か事前実験して対話戦略を立てた提案手法で、RandomとBackChannelの二手法と比較。
 
