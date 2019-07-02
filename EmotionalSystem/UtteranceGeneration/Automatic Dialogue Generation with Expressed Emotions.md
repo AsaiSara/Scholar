@@ -40,7 +40,7 @@ Decoder
 ### 評価尺度
 * 隠れ層600次元, optimizerはAdam, 学習率1e-4, 語彙数25000(Li et al. 2016a), LSTM, test data 50000 samples, training:evaluation = 95%:5%,
 
-![figure1](https://github.com/AsaiSara/Scholar/blob/picture/Generation%20model/Emotion%20expression/Automatic_Emo2018_eval.png)
+![figure1](https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Automatic_Emo2018_eval.png)
 
 ### 評価結果
 * 作成した分類器で9感情に分類した正解率：Decoder に入れる方法が全体的には一番高かった、Encoderに入れる方法はほぼ精度が同じ
