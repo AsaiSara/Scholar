@@ -1,15 +1,8 @@
 # [Empathic dialogue system based on emotions extracted from tweets](https://dl.acm.org/citation.cfm?id=3302281)
 Authors:	Shunichi Tahara	KDDI Research, Inc, Fujimimo, Japan
-
 Kazushi Ikeda	KDDI Research, Inc, Fujimimo, Japan
-
 Keiichiro Hoashi	KDDI Research, Inc, Fujimimo, Japan
-
-Published in:
-· Proceeding
-IUI '19 Proceedings of the 24th International Conference on Intelligent User Interfaces
-Pages 52-56 
-
+Published in:Proceeding　IUI '19 Proceedings of the 24th International Conference on Intelligent User Interfaces　Pages 52-56 
 Marina del Ray, California — March 17 - 20, 2019 
 
 ## 概要
@@ -33,7 +26,7 @@ Marina del Ray, California — March 17 - 20, 2019
 3. ニュースタイトルから発話生成し対話を始める
 4. 受け取ったユーザ発話を感情カテゴリに分類　(GoogleAPIを使用)
 5. 2.でカテゴリ分けされたツイートを選択し共感が最大化するようなツイートを選択(特に顔文字や！など主観的表現が多いもの)
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_system.png"  width="300px">
+<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_system.png"  width="400px">
 ## 有効性の評価
 どういった感情がニュース記事に対する対話で有効か事前実験して対話戦略を立てた提案手法で、RandomとBackChannelの二手法と比較。
 
@@ -59,7 +52,7 @@ Marina del Ray, California — March 17 - 20, 2019
   * Table3：平均ではRandomが最も高いが、どの手法も差がなかった
   * Table4：Pos,NegではProposedが最も高くKruskal-Wallis testで3手法に有意差あり、PosについてはMan-Whitney's test でbackchannnelとProposed間に有意差あり、NeuではRandomが高いが差がない。
   * Table5：BestではRandom＞Proposed>Bachchannel、WorstではBackChannel＞Random＞Proposed　…　BackChannelが好ましいと思われておらずRandomは意見が割れていることが分かる
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_eval1.png"  width="300px">
+<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_eval1.png"  width="400px">
 
 ### 考察
 * ProposedのPosNegでは同じ感情を得られるため共感を感じたと考えられる。一方で、ユーザ発話がneutralの時はBackChannelを選ぶので、その時にスコアが下がっている。それは、対話を本当に理解しているか疑っているから。
