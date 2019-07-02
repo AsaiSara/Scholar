@@ -25,7 +25,7 @@ Decoder
 
 手法3 Dec : same as (Li et al. 2016a). each step, feed emotion vectore (v_e) ... [h^(De)_(t-1);c^(De)_(t-1);v_e]
 
-![figure1](https://github.com/AsaiSara/Scholar/blob/picture/Generation%20model/Emotion%20expression/Automatic_Emo2018.png)
+![figure1](https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Automatic_Emo2018.png)
 
 ## 有効性の評価
 * 分類精度 + 生成例の事例分析
