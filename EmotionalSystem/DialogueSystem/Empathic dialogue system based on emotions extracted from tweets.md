@@ -26,7 +26,7 @@ Marina del Ray, California — March 17 - 20, 2019
 3. ニュースタイトルから発話生成し対話を始める
 4. 受け取ったユーザ発話を感情カテゴリに分類　(GoogleAPIを使用)
 5. 2.でカテゴリ分けされたツイートを選択し共感が最大化するようなツイートを選択(特に顔文字や！など主観的表現が多いもの)
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_system.png"  width="400px">
+<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_system.png"  width="500px">
 
 ## 有効性の評価
 どういった感情がニュース記事に対する対話で有効か事前実験して対話戦略を立てた提案手法で、RandomとBackChannelの二手法と比較。
@@ -39,7 +39,7 @@ Marina del Ray, California — March 17 - 20, 2019
   3. 1.2.を使って45発話ペアを生成(pos/neg/neuの組み合わせにそれぞれ5ペアずつ　3感情×3感情×5発話ペア=45発話ペア)
 * 方法：被験者64名に対話を読んでもらい共感度合を7段階でつけてもらう(-3~3)
 * 結果：Pos-Pos、Neg-Negはスコアが高く、Neuは差がなかったた
-* 提案手法の決定：ユーザがposの時はPos、Negの時はNeg、NeuのときはBackChannel(先行研究でも共感に有効とされており、事前実験結果でもneuに対するBackChannnelスコアは0.899で兵器により高い)を使う。
+* 提案手法の決定：ユーザがposの時はPos、Negの時はNeg、NeuのときはBackChannel(先行研究でも共感に有効とされており、事前実験結果でもneuに対するBackChannnelスコアは0.899で平均より高い)を使う。
 
 ### 本実験
 * データセット：事前実験とユーザシミュレート発話以外は同じ　(ツイートは長すぎるものとURL、HachTagを省く)
@@ -54,7 +54,7 @@ Marina del Ray, California — March 17 - 20, 2019
   * Table3：平均ではRandomが最も高いが、どの手法も差がなかった
   * Table4：Pos,NegではProposedが最も高くKruskal-Wallis testで3手法に有意差あり、PosについてはMan-Whitney's test でbackchannnelとProposed間に有意差あり、NeuではRandomが高いが差がない。
   * Table5：BestではRandom＞Proposed>Bachchannel、WorstではBackChannel＞Random＞Proposed　…　BackChannelが好ましいと思われておらずRandomは意見が割れていることが分かる
-<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_eval1.png"  width="400px">
+<img src="https://github.com/AsaiSara/Scholar/blob/picture/EmotionalSystem/DialogueSystem/Empathic_Dialogue_System_eval1.png"  width="500px">
 
 ### 考察
 * ProposedのPosNegでは同じ感情を得られるため共感を感じたと考えられる。一方で、ユーザ発話がneutralの時はBackChannelを選ぶので、その時にスコアが下がっている。それは、対話を本当に理解しているか疑っているから。
