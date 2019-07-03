@@ -4,7 +4,7 @@ Kangyan Zhou, Shrimai Prabhumoye, Alan W Black
 ### 会議名
 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018
 
-# 概要
+## 概要
 映画の話題に特化したウィキペディアデータセットを作成。対話履歴だけではなくモデルが使えるソース情報も
 含んでおり、実験では応答生成性能を2つのニューラルネットワークで精度比較した結果流暢さと魅力が向上した。
 
