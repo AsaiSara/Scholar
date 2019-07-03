@@ -1,7 +1,7 @@
 # [A Dataset for Document Grounded Conversations](https://arxiv.org/abs/1809.07358)
-###著者
+### 著者
 Kangyan Zhou, Shrimai Prabhumoye, Alan W Black
-###会議名
+### 会議名
 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2018
 
 # 概要
@@ -25,7 +25,7 @@ Wikipediaの映画記事を見せて対話を行ってもらう。片方の話�
 * 全部で4112対話、平均21.43ターン、拡張後31ターン（w1, w2, w1 -> (w1, w2), (w2, w1）)
 ![figure2](https://github.com/AsaiSara/Scholar/blob/master/picture/Dataset_for_document_grounded_num.png)
 
-###収集データの妥当性
+### 収集データの妥当性
 * 映画記事ドキュメントと収集対話(対話内で計算に使う単語の割合を変化)でBLEUを取ってドキュメント参照率を見る（Table5）→ データセットをRatingごとに3種類に分割（Table4）
   * Rating1：BLEU＜0.1 (ターン数は10以下のものは省いているため、ターン数＞11)
   * Rating2：1と3以外
@@ -36,9 +36,9 @@ Wikipediaの映画記事を見せて対話を行ってもらう。片方の話�
 ##有効性の検証
 Seq2Seq(SEQ)モデルを使う場合とそれにセクション情報を付与するSEQSの二種類のモデルを構築。
 （2層bi-LSTM,dropout0.3,hidden_size 300, embedding size 100, optimizer Adam, learning rate,1e-3. beam width 5, train/val/test 0.8/0.05/0.15）
-###データセット
+### データセット
 * 収集したデータセット（CMU_DoC）のみを使用
-###評価尺度
+### 評価尺度
 1. 自動評価１：NW (トークン集合･･･"N"=Current utter:xi, , "M"=Current Section:si, "H"=previous three utters, "S"=set of stop words, |((N∩M)\H)\S| 
   * ワーカーがドキュメント情報を対話に使えるかどうかを検証
   * 結果：Table6 より、人々は新しいセクションを見ていて、古いセクションに執着しないとわかる
