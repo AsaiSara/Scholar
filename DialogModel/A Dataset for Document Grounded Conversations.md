@@ -31,7 +31,7 @@ Wikipediaの映画記事を見せて対話を行ってもらう。片方の話�
   * Rating2：1と3以外
   * Rating3：ターン数＞12, BLEU＞0.587(平均0.385, 標準偏差0.202)  
 ![figure1](https://github.com/AsaiSara/Scholar/blob/master/picture/Dataset_for_document_grounded_eval1.png)
-* 評価結果：ドキュメントにアクセス可能な人の平均0.22に対し、アクセスできない人の平均0.33
+* 評価結果：ドキュメントにアクセス可能な人の平均0.22に対し、アクセスできない人の平均0.3
 
 ## 有効性の検証
 Seq2Seq(SEQ)モデルを使う場合とそれにセクション情報を付与するSEQSの二種類のモデルを構築。
@@ -40,18 +40,18 @@ Seq2Seq(SEQ)モデルを使う場合とそれにセクション情報を付与�
 * 収集したデータセット（CMU_DoC）のみを使用
 ### 評価尺度
 1. 自動評価１：NW (トークン集合･･･"N"=Current utter:xi, , "M"=Current Section:si, "H"=previous three utters, "S"=set of stop words, |((N∩M)\H)\S| 
-  * ワーカーがドキュメント情報を対話に使えるかどうかを検証
-  * 結果：Table6 より、人々は新しいセクションを見ていて、古いセクションに執着しないとわかる
+    * ワーカーがドキュメント情報を対話に使えるかどうかを検証
+    * 結果：Table6 より、人々は新しいセクションを見ていて、古いセクションに執着しないとわかる
 ![figure3](https://github.com/AsaiSara/Scholar/blob/master/picture/Dataset_for_document_grounded_eval2.png)
 2. 自動評価２：Perplexity 
-  * 生成発話の自然性を評価
-  * 結果：SEQ21.8 SEQS10.11
+    * 生成発話の自然性を評価
+    * 結果：SEQ21.8 SEQS10.11
 3. 人手評価１：Engagement
-  * モデル同士を比較
-  * 結果：SEQ 36.4, SEQS 43.9%,NoPreference 19.6% つまりセクションを使ったほうがEngagementが高い
+    * モデル同士を比較
+    * 結果：SEQ 36.4, SEQS 43.9%,NoPreference 19.6% つまりセクションを使ったほうがEngagementが高い
 4. 人手評価２：Fluency
-  * a scale of 1(unreadable) to 4(perfectly readable)
-  * 結果：SEQ 2.88, SEQS 3.84
+    * a scale of 1(unreadable) to 4(perfectly readable)
+    * 結果：SEQ 2.88, SEQS 3.84
   
 ## その他の議論
 
