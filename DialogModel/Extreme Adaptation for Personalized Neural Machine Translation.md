@@ -35,7 +35,7 @@ Paul Michel, Graham Neubig
 ドメインラベルを与えない場合、単純に与える方法(spk_token)、提案手法（full_bias, fact_bias）をBLUEとSpeaker crassificationの正解率で評価。
 
 ### データセット
-TED(SATED) based on TED Talks（3言語翻訳ペアEnglish-French, Englisn-German, English-Spanish、話者アノテーション付き）
+* TED(SATED) based on TED Talks（3言語翻訳ペアEnglish-French, Englisn-German, English-Spanish、話者アノテーション付き）
 ![data](https://github.com/AsaiSara/Scholar/blob/master/picture/Extreme_adaptation_for_personalized_NMT_data.png)
 ### 評価尺度
 * BLEU：en-frでfact_bias向上、gr-es ではfull_bias微小に向上, en-de は両モデル向上
