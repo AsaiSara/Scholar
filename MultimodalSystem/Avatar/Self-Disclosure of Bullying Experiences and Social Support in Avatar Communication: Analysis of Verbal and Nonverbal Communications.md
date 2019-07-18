@@ -1,4 +1,4 @@
-# [Self-Disclosure of Bullying Experiences and Social Support in Avatar Communication: Analysis of Verbal and Nonverbal Communications(https://www.aaai.org/ojs/index.php/ICWSM/article/view/3353/3221)
+# [Self-Disclosure of Bullying Experiences and Social Support in Avatar Communication: Analysis of Verbal and Nonverbal　Communications(https://www.aaai.org/ojs/index.php/ICWSM/article/view/3353/3221)
 
 ### 著者
 Masanori Takano
