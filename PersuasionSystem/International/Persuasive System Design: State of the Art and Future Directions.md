@@ -14,10 +14,10 @@ Persuasive Technology, Fourth International Conference, PERSUASIVE 2009, Claremo
 4つの分野それに付随する2つの規律、PSDモデルの3要素、PSDモデルの4原理、PSDモデルの4変数を基に説得システムの成り立ちと傾向を説明
 * computer-based field
    * 4つの分野
-      1. Human-computer 
-      2. interaction 
-      3. computer-mediated communication
-      4. Information system Affective computting)
+      1. Human-computer interaction
+      2. Computer-mediated communication 
+      3. Information system
+      4. Affective computting
    * 2つの人間科学分野による規律(1. psychology, 2. rhetoric)
 * PSDモデルの要素、原理、変数
    * Persuasion contextが含む3要素
