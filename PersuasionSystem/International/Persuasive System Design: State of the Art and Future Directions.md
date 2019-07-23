@@ -18,7 +18,7 @@ Persuasive Technology, Fourth International Conference, PERSUASIVE 2009, Claremo
 * PSDモデルの要素、原理、変数
    * Persuasion contextが含む3要素(1. The Intent(C1. Persuader, C2. Change type), 2. The Event(C3. Use context, C4. User context, C5. Techonology context), 3. The Strategy(C6. Message, C7. Route))
 ![contexts](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasive_system_design_contexts.png)
-   * デザインの原理を4つの要素(変数)(1. Primary task support(P1~P7), 2. Dialogue support(P8~P14), 3. System credibility support(P15~P21), 4. Social support(P22~P28))
+   * デザインの原理を4つの要素(変数)(1. Primary task support(P1 ~ P7), 2. Dialogue support(P8 ~ P14), 3. System credibility support(P15 ~ P21), 4. Social support(P22 ~ P28))
    * 4つの追加変数(ethics(A1), transformation(A2), contribution type(A3), sample size(A4))
       * sample size ･･･ experimental(62.7% n= 32) : conceptual (37.3% n=19)
 
@@ -57,5 +57,5 @@ Persuasive Technology, Fourth International Conference, PERSUASIVE 2009, Claremo
 
 * social comparison : 
   * "自己評価のために他者と比較する衝動があるという人の習慣に焦点を当てた理論"(Wikipedia) [URL](https://ja.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%9A%84%E6%AF%94%E8%BC%83%E7%90%86%E8%AB%96)
-  * social comparison is defined as the process of thinking about information about one or more other people in relation to the self(https://pdfs.semanticscholar.org/7384/4700dbaf6f15cfb364882d28f8724cb8a7c5.pdf) 
+  * social comparison is defined as the process of thinking about information about one or more other people in relation to the self[URL](https://pdfs.semanticscholar.org/7384/4700dbaf6f15cfb364882d28f8724cb8a7c5.pdf) 
     * "Comparison may be integrally connected to persuasion when the communication source's relative standing with the target audience on relevant attributes is salient. For example, while listening to a political appeal, a message is generally more persuasive when it comes from someone of the same political party (e.g., Brock, 1965). Similarly, a common assumption is that a persuasive message from a person who is similar to the audience in gender, age, or life experience, lends credibility to the content of the communication. "
