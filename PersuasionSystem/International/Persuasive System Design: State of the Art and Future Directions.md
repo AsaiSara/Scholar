@@ -65,10 +65,10 @@ Persuasive Technology, Fourth International Conference, PERSUASIVE 2009, Claremo
 * Tailoring : Persuasion thorough Customization　([BJ Fogg](https://www.bjfogg.com/))([Isis Information Service](http://www.isisinform.com/category/arrangement-as-persuasion/tailoring/))
     * Personalization/Computer-tailoring、tailor ingredient(成分)　
     * "Fogg’s Principle of Tailoring: Information provided by computing technology will be more persuasive if it is tailored to the individual’s needs, interests, personality, usage context, or other factors relevant to the individual."
-* Tunnneling : Guided Persuasion (BJ Fogg)([Isis Information Service](http://www.isisinform.com/category/arrangement-as-persuasion/tunneling/)
+* Tunnneling : Guided Persuasion (BJ Fogg)([Isis Information Service](http://www.isisinform.com/category/arrangement-as-persuasion/tunneling/))
     * "Fogg defines a tunnel as a committed journey, like an amusement park ride. "
     
-* Reduction : Persuading through simplifying ([BJ Fogg](https://www.bjfogg.com/))
+* Reduction : Persuading through simplifying([Isis Information Service](http://www.isisinform.com/category/arrangement-as-persuasion/tunneling/))
 
 * social comparison : 
   * "自己評価のために他者と比較する衝動があるという人の習慣に焦点を当てた理論"([Wikipedia](https://ja.wikipedia.org/wiki/%E7%A4%BE%E4%BC%9A%E7%9A%84%E6%AF%94%E8%BC%83%E7%90%86%E8%AB%96))
