@@ -24,8 +24,10 @@ Persuasive Technology, Fourth International Conference, PERSUASIVE 2009, Claremo
      1. The Intent(C1. Persuader, C2. Change type) 
      2. The Event(C3. Use context, C4. User context, C5. Techonology context) 
      3. The Strategy(C6. Message, C7. Route)
+     
 ![contexts](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasive_system_design_contexts.png)
-   * デザインの原理を4つの要素(変数)
+
+* デザインの原理を4つの要素(変数)
       1. Primary task support(P1 ~ P7)
       2. Dialogue support(P8 ~ P14) 
       3. System credibility support(P15 ~ P21) 
@@ -47,9 +49,9 @@ Persuasive Technology, Fourth International Conference, PERSUASIVE 2009, Claremo
 * C1. Persuader : 明確に定められているものは少ない(28.1% n=9)
 * C2. Change type : experimental paper(84.4% n=32)の中では明確なマナーを目的とした研究が多い(81.3 % n=26)、また行動変容(befavioral change)に関しては大半である(84.4% n=27)
    * behavioral change (e.g.限られた予算と時間フレームで実験)はattitude change(複雑な調査が必要)に比べて評価が定量化できるので研究しやすい
-   * unique and queantifiable measures of system success. そのためには明確に目的を示して目的を達成しそれが計測されないといけない。
-   * change とtransfomationがコアとなる部分だがexperimental paperの71.8%(n=23)のみしかそそれらが起こったかのべ手おらずそれ以外は行動変容が起きたか分からない。
-* C3. The context : 
+   * Persuasive systemをデザインする際は計画的な予測可能な変容を促す目的を作り、明確に目的を示して目的を達成しそれが計測されないといけない。
+   * change とtransfomationがPersuasive systemのコアとなる部分だがexperimental paperの71.8%(n=23)のみしかそれらが起こったか分からない。
+* C3. The context : contextが述べられているのは54.9%(n=28)しかなく、粗末なマナーが多い
 * C4. User context : 
 * C5. 
   
