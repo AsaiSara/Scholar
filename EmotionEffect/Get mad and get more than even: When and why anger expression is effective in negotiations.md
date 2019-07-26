@@ -14,11 +14,11 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 3. 結果では仮説通りの場面にて譲歩率が向上し(実験１)、説得者による靭性が主張を強めた(実験２)。
 
 ## 先行研究と比べてここがすごい
-* 交渉の先行研究では保持状態については悪影響と言われるが、「怒り」の良い効果を実証(下の二つを参照)
+* 交渉の先行研究では保持状態については悪影響と言われるが、交渉における「怒り」の良い効果を調査(下の二つを参照)
    1. toughness is effective in negothiation to the person who have poor alteranatives(Yukl 74, Komirita 69)
    2. 「怒り」を表現する人はdominant, strong, toughであると言われる(Knutron 96, Clark 96, Karasawa, 01  et.al.)
   
-* 「怒り」効果では検証されていなかった交渉特有の性質(代替案の内容の影響大)を考慮した実験設定を設計
+* 「怒り」が含む性質toughnessと交渉特有の性質(toughnessと代替案の内容の影響)の相互向上作用を実験
 
 （メモ）
 説得に対する感情の効果を調査している研究では保持する感情状態の効果を示していたが、感情表現を戦略として考えた際の
@@ -26,16 +26,11 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 実際に説得を行う実験はされていないため、「怒り」の表現を行う場合と、そうでない場合の結果を比較している。
 
 ## 手法のキモ
-1. 魅力的な代替案の有無と怒りの感情表現の有無を分けて実験
-2. 「怒り」の効果として悪影響はないか、toughnessに繋がるから効果的なのか、についても追加検証
+1. 魅力的な代替案の有無と怒りの感情表現の有無を分けて交渉対話のシナリオを提示する評価実験
+2. 「怒り」の効果として悪影響はないか、toughnessに繋がるから効果的なのか、に着目した交渉の実証実験
 
 ## 有効性の評価
-* 実験1
- * 人手評価
-  　*  　
-
-### データセット
-
+人手評価による検証、詳しくは一番下のメモを参照。
 ### 評価尺度
 * 人手評価を行い、その結果をANOVAによって分析。
   * 実験１（対話例提示）   
@@ -44,7 +39,13 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
     * agree discount : 10%~60%
     * anger expression rate : 1 ~ 6
     * how attractive alternative : 1 ~ 6
-  * 実験２（）
+  * 実験２（交渉の実証実験）
+    * Emotion manipulation cheks : 1 ~ 6
+    * Perception of alternatives : 4つの交渉問題について賛成かどうかを"Yes"or"No"で評価⇒最終的に"Yes"の数の合計を使う
+    * Perception of tough ness : 1 ~ 6    *  
+
+### 評価結果
+
 
 ## その他の議論
 
@@ -66,7 +67,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 * 実験１　
   * 電化製品の販売を行う説得者になったと想像して、3つの保証(責任範囲、保証期間、補備品割引)について交渉の対話例(11発話)を見てアンケートに答えてもらう。　
   * Alternatives manipulation : 157人の半分は良い代替案、半分は悪い代替案のシナリオを見る。
-    * シナリオ(良い代替案を持つ場合)：今沢山の契約を持っていて会社は良い調子でビジネスも繁栄している。契約が取れなくてもまた良い契約を取るのは簡単。それゆえ顧客を失うことは大した問題ではなく、交渉にはたくさんの代替案を持っているし、あなたの取引力は高い。
+    * 前提(良い代替案を持つ場合)：今沢山の契約を持っていて会社は良い調子でビジネスも繁栄している。契約が取れなくてもまた良い契約を取るのは簡単。それゆえ顧客を失うことは大した問題ではなく、交渉にはたくさんの代替案を持っているし、あなたの取引力は高い。
   * Emotion manipulation : 対話の最後の4発話で相手の状態を呈示することで印象を評価(提示文は全く同じ)
     * anger condition : "He in an angry way:" 
     * no anger condition : "He, without being angry:"
@@ -92,10 +93,28 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
       * 怒りによる交渉への悪影響や本当に（怒りによる）toughnessが良い影響を与えたのかはまだ分からないので、実験２で検証する
       
 * 実験２
-  * フランス語が母語の女36ペア、男35ペアに対して実験(国籍性別のコンテキストの影響を防ぐため)
+  * フランス語が母語の142人（女36ペア、男35ペア）に対して実験(国籍性別のコンテキストの影響を防ぐため)
   * 交渉の文脈を見せられるが、相手側の資料を見ることはできない
-    * 会社から提供されるsalary, vacation location ane equipmentについて交渉(Tompson 91)
-    
+    * 会社から提供される４条件（salary, vacation location ane equipment）について交渉(Tompson 91)
+  * 表現はangry and neutral : 交渉する際の感情表現については、表情や沈黙、ジェスチャーや文の表現について専門家が指導
+  * Alternatives :　前提（代替案がない場合）：現在内定がなくて市場の状況も悪く就職困難、これからも内定の兆しはなく...
+  * Emotion manipulation cheks : 1 ~ 6
+  * Perception of alternatives : 4つの交渉問題について賛成かどうかを"Yes"or"No"で評価⇒最終的に"Yes"の数の合計を使う
+  * Perception of tough ness : 1 ~ 6
+  * 結果
+      * Confidentialoy of the instructions : 3つのペアにおいてインストラクションを相手から見せられたメンバーがいる。
+         * 3組は2つはneutral condition、1組はanger expression condition この3ペアのみは次の実験では省いた
+      * Alternatives : 魅力的でないが67%, 魅力的33％と差が大きく、感情表現によって差が出なかった⇒追加実験
+      * Impasses : ３つの難局（２つは怒りの感情状態、もう一つは平静の状態）
+      * Value claiming : ANOVA Anger > neutral
+      * Value creation : no effect of anger expression
+      * Toughness as a mediator : anger -> toughness and claiming, toughness-> claiming の回帰モデルを作成
+         * 図2よりangerはtoughness, claimingを予測し、toughnessはclaimingを予測するという結果
+         * つまり、toughnessが同時にvalue claimingを予測したときはangerが劇的に影響が小さくなると考えられる
+            * 「怒り」の感情表現に関係なくtoughnessな発話をしていたとしたら差がなくなる
+      * Supplementary analysis
+         * 
+   
     
     
       
