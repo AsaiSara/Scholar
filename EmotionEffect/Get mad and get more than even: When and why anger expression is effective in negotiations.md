@@ -11,11 +11,11 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 ## 概要
 1. 交渉で相手が良い代替案を持っていない場合「怒り」が主張を強め効果があるという仮説を立てる。
 2. 怒りが交渉に良い影響を与えるかを検証するため実験(1. シナリオの精読, 2. 実際の交渉)を行った。
-3. 結果では仮説通りの場面にて受諾率が向上し(実験１)、説得者による靭性が主張を強めた(実験２)。
+3. 結果では仮説通りの場面にて譲歩率が向上し(実験１)、説得者による靭性が主張を強めた(実験２)。
 
 ## 先行研究と比べてここがすごい
 * 交渉の先行研究では保持状態については悪影響と言われるが、「怒り」の良い効果を実証(下の二つを参照)
-   1. toughness is effective in negothiation for unattractive alteranatives(Yukl 74, Komirita 69)
+   1. toughness is effective in negothiation to the person who have poor alteranatives(Yukl 74, Komirita 69)
    2. 「怒り」を表現する人はdominant, strong, toughであると言われる(Knutron 96, Clark 96, Karasawa, 01  et.al.)
   
 * 「怒り」効果では検証されていなかった交渉特有の性質(代替案の内容の影響大)を考慮した実験設定を設計
@@ -59,7 +59,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 
 論文の流れ：怒りは戦略として使えそう（交渉には靭性(toughness)が譲歩(concession)を促す＋怒りは靭性がある）
 
-　　　⇒実験1で怒りの表現が認識されるか、代替案がある場合とない場合とが判別されるかを検証
+　　　⇒実験1で怒りの表現が認識されるか、代替案がある場合とない場合とが判別されるかをシナリオの評価で検証
 
 　　　⇒実験2で実際にその方法で効果があるか対話形式で検証
 
