@@ -116,10 +116,10 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
       * Supplementary analysis
          * 良い代替案があると思った参加者が少なかったため、追加テストを行った
             * poor alternative と感じたペアとgood alternativeと感じたペアの違いを比較
-            *  2(Angry vs. Not Angry) ×2(Poor vs. Good) ＊Anger expression についての結果
+            *  2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･Anger expression についての結果
                * anger expression : anger condition > neutral condition
                * emotion expression は　alternative　に影響なし
-            *   2(Angry vs. Not Angry) ×2(Poor vs. Good) ＊claiming value についての結果 
+            *   2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･claiming value についての結果 
                * emotional expression : angry > neutral
                * alternative : poor > good   (emotional とalternativeを合わせたスコア　図③)
 
