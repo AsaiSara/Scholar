@@ -15,8 +15,8 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 
 ## 先行研究と比べてここがすごい
 * 交渉の先行研究では保持状態については悪影響と言われるが、「怒り」の良い効果を実証(下の二つを参照)
-　 1. toughness is effective in negothiation for unattractive alteranatives(Yukl 74, Komirita 69)
- 　2.  「怒り」を表現する人はdominant, strong, toughであると言われる(Knutron 96, Clark 96, Karasawa, 01  et.al.)
+   1. toughness is effective in negothiation for unattractive alteranatives(Yukl 74, Komirita 69)
+   2. 「怒り」を表現する人はdominant, strong, toughであると言われる(Knutron 96, Clark 96, Karasawa, 01  et.al.)
   
 * 「怒り」効果では検証されていなかった交渉特有の性質(代替案の内容の影響大)を考慮した実験設定を設計
 
