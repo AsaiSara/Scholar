@@ -31,20 +31,27 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 
 ## 有効性の評価
 人手評価による検証、詳しくは一番下のメモを参照。
-### 評価尺度
+### 評価     
 * 人手評価を行い、その結果をANOVAによって分析。
   * 実験１（対話例提示）   
     * agree libility coverage : 100,000~15,000,000
     * agree repair time : 36~1200 hours
     * agree discount : 10%~60%
-    * anger expression rate : 1 ~ 6
+      * totalだとpoor and anger が一番高い 
+    * Emotion manipulation cheks(anger expression rate) : 1 ~ 6
+      * anger > neutral
     * how attractive alternative : 1 ~ 6
-  * 結果：
+      * poor alternativeを提示された被験者は交渉に魅力的な代替案を殆ど持っていないと感じていた
 
   * 実験２（交渉の実証実験）
     * Emotion manipulation cheks : 1 ~ 6
+      * anger > neutral
     * Perception of alternatives : 4つの交渉問題について賛成かどうかを"Yes"or"No"で評価⇒最終的に"Yes"の数の合計を使う
-    * Perception of tough ness : 1 ~ 6    *  
+      * 差がなかった
+    * Perception of toughness : 1 ~ 6    
+      * anger > neutral
+    * how attractive alternative : Yes or No 
+      * 
 
 ## その他の議論
 * 交渉の後の長期的な関係について怒りが影響するかもしれない
@@ -52,6 +59,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 ## 次に読むべき論文
 
 ## コメント
+* 分析の結果を理解するのが難しい　claiming value = concession rate なのかよくわからん
 * 根拠を固めるのはとても大事…
 * 実験1で示している対話例についてどういった例を示しているかが謎
 
