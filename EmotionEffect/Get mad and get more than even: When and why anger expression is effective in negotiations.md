@@ -91,7 +91,8 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
       * liability, discount については譲歩がより大きく、repair time については譲歩がより小さい値
       * 平均のANOVAの結果では「怒り」のPoor alternativeが譲歩率が高い結果(図1)
       * 怒りによる交渉への悪影響や本当に（怒りによる）toughnessが良い影響を与えたのかはまだ分からないので、実験２で検証する
-      
+![eval1](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval1.png)    
+
 * 実験２
   * フランス語が母語の142人（女36ペア、男35ペア）に対して実験(国籍性別のコンテキストの影響を防ぐため)
   * 交渉の文脈を見せられるが、相手側の資料を見ることはできない
@@ -107,6 +108,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
       * Alternatives : 魅力的な代替案が少ない67%, 多い33％と差が大きく、感情表現によって差が出なかった　⇒追加実験
          * 恐らく就活において良い状況を提示されても魅力的な就職先が多いとは考えない人が多かった
       * Impasses : ３つの難局（２つは怒りの感情状態、もう一つは平静の状態）
+       ![eval2](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval1.png) 
       * Value claiming : ANOVA Anger > neutral
       * Value creation : no effect of anger expression　(怒りが有効であるという結果は出なかった！)
       * Toughness as a mediator : anger -> toughness and claiming, toughness-> claiming の回帰モデルを作成
@@ -116,13 +118,13 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
       * Supplementary analysis
          * 良い代替案があると思った参加者が少なかったため、追加テストを行った
             * poor alternative と感じたペアとgood alternativeと感じたペアの違いを比較
-            *  2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･Anger expression についての結果
+            * 2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･Anger expression についての結果
                * anger expression : anger condition > neutral condition
                * emotion expression は　alternative　に影響なし
-            *   2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･claiming value についての結果 
+            * 2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･claiming value についての結果 
                * emotional expression : angry > neutral
                * alternative : poor > good   (emotional とalternativeを合わせたスコア　図③)
-
+               ![eval3](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval2.png) 
     
     
       
