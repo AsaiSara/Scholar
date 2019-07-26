@@ -62,7 +62,6 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
 ## コメント
 * 分析の結果を理解するのが難しい　claiming value = concession rate なのかよくわからん
 * 根拠を固めるのはとても大事…
-* 実験1で示している対話例についてどういった例を示しているかが謎
 
 ## メモ
 * 実対話例から論文が始まるから、とっつきやすいし興味をひかれた
