@@ -37,21 +37,22 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
     * agree libility coverage : 100,000~15,000,000
     * agree repair time : 36~1200 hours
     * agree discount : 10%~60%
-      * totalだとpoor and anger が一番高い 
+      * -> totalだとpoor and anger が一番高い 
     * Emotion manipulation cheks(anger expression rate) : 1 ~ 6
-      * anger > neutral
+      * -> anger > neutral
     * how attractive alternative : 1 ~ 6
-      * poor alternativeを提示された被験者は交渉に魅力的な代替案を殆ど持っていないと感じていた
+      * -> poor alternativeを提示された被験者は交渉に魅力的な代替案を殆ど持っていないと感じていた
 
   * 実験２（交渉の実証実験）
     * Emotion manipulation cheks : 1 ~ 6
-      * anger > neutral
-    * Perception of alternatives : 4つの交渉問題について賛成かどうかを"Yes"or"No"で評価⇒最終的に"Yes"の数の合計を使う
-      * 差がなかった
+      * -> anger > neutral
+    * Perception of alternatives : 4つの交渉問題について賛成かどうかを"Yes"or"No"で評価⇒"Yes"の数の合計を使う
+      * -> 差がなかった
     * Perception of toughness : 1 ~ 6    
-      * anger > neutral
+      * -> anger > neutral
     * how attractive alternative : Yes or No 
-      * 
+      * -> emotional expression : angry > neutral
+      * -> alternative : poor > good   (emotional とalternativeを合わせたスコア　図③)      * -> 
 
 ## その他の議論
 * 交渉の後の長期的な関係について怒りが影響するかもしれない
