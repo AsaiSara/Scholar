@@ -108,7 +108,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
       * Alternatives : 魅力的な代替案が少ない67%, 多い33％と差が大きく、感情表現によって差が出なかった　⇒追加実験
          * 恐らく就活において良い状況を提示されても魅力的な就職先が多いとは考えない人が多かった
       * Impasses : ３つの難局（２つは怒りの感情状態、もう一つは平静の状態）
-       ![eval2](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval1.png) 
+         ![eval2](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval2.png) 
       * Value claiming : ANOVA Anger > neutral
       * Value creation : no effect of anger expression　(怒りが有効であるという結果は出なかった！)
       * Toughness as a mediator : anger -> toughness and claiming, toughness-> claiming の回帰モデルを作成
@@ -124,7 +124,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
             * 2(Angry vs. Not Angry) ×2(Poor vs. Good) ･･･claiming value についての結果 
                * emotional expression : angry > neutral
                * alternative : poor > good   (emotional とalternativeを合わせたスコア　図③)
-               ![eval3](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval2.png) 
+                 ![eval3](https://github.com/AsaiSara/Scholar/blob/master/picture/Get_mad_and_anger_eval3.png) 
     
     
       
