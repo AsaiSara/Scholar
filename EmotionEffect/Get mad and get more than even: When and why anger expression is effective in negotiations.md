@@ -39,15 +39,15 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
     * agree discount : 10%~60%
     * anger expression rate : 1 ~ 6
     * how attractive alternative : 1 ~ 6
+  * 結果：
+
   * 実験２（交渉の実証実験）
     * Emotion manipulation cheks : 1 ~ 6
     * Perception of alternatives : 4つの交渉問題について賛成かどうかを"Yes"or"No"で評価⇒最終的に"Yes"の数の合計を使う
     * Perception of tough ness : 1 ~ 6    *  
 
-### 評価結果
-
-
 ## その他の議論
+* 交渉の後の長期的な関係について怒りが影響するかもしれない
 
 ## 次に読むべき論文
 
@@ -86,7 +86,7 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
     * 2(Angry vs. Not Angry) ×2(Poor vs. Good)
       * poor alternativeを提示された被験者は交渉に魅力的な代替案を殆ど持っていないと感じていたことが示された。（シナリオで示しているのは代替案の数が多いかとどれだけ会社と自分が良い状況にあるかどうかなので、魅力的な代替案があるかは分かっていない）
       * Emotion facterの違いについては影響なし。
-    * 譲歩について
+    * Concession
       * スコアを正規化してtotalしている
       * liability, discount については譲歩がより大きく、repair time については譲歩がより小さい値
       * 平均のANOVAの結果では「怒り」のPoor alternativeが譲歩率が高い結果(図1)
@@ -104,17 +104,25 @@ Journal of Experimental Social Psychology 42 (2006) 314–322
   * 結果
       * Confidentialoy of the instructions : 3つのペアにおいてインストラクションを相手から見せられたメンバーがいる。
          * 3組は2つはneutral condition、1組はanger expression condition この3ペアのみは次の実験では省いた
-      * Alternatives : 魅力的でないが67%, 魅力的33％と差が大きく、感情表現によって差が出なかった⇒追加実験
+      * Alternatives : 魅力的な代替案が少ない67%, 多い33％と差が大きく、感情表現によって差が出なかった　⇒追加実験
+         * 恐らく就活において良い状況を提示されても魅力的な就職先が多いとは考えない人が多かった
       * Impasses : ３つの難局（２つは怒りの感情状態、もう一つは平静の状態）
       * Value claiming : ANOVA Anger > neutral
-      * Value creation : no effect of anger expression
+      * Value creation : no effect of anger expression　(怒りが有効であるという結果は出なかった！)
       * Toughness as a mediator : anger -> toughness and claiming, toughness-> claiming の回帰モデルを作成
          * 図2よりangerはtoughness, claimingを予測し、toughnessはclaimingを予測するという結果
          * つまり、toughnessが同時にvalue claimingを予測したときはangerが劇的に影響が小さくなると考えられる
             * 「怒り」の感情表現に関係なくtoughnessな発話をしていたとしたら差がなくなる
       * Supplementary analysis
-         * 
-   
+         * 良い代替案があると思った参加者が少なかったため、追加テストを行った
+            * poor alternative と感じたペアとgood alternativeと感じたペアの違いを比較
+            *  2(Angry vs. Not Angry) ×2(Poor vs. Good) ＊Anger expression についての結果
+               * anger expression : anger condition > neutral condition
+               * emotion expression は　alternative　に影響なし
+            *   2(Angry vs. Not Angry) ×2(Poor vs. Good) ＊claiming value についての結果 
+               * emotional expression : angry > neutral
+               * alternative : poor > good   (emotional とalternativeを合わせたスコア　図③)
+
     
     
       
