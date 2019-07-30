@@ -29,7 +29,7 @@ Format
     ## コメント
 
 Figure URL
-    ![figure](https://github.com/AsaiSara/Scholar/blob/master/picture/~.png)
+    \!\[figure](https://github.com/AsaiSara/Scholar/blob/master/picture/~.png)
 
 
 Other Format
