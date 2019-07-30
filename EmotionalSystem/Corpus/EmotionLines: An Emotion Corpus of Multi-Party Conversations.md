@@ -11,12 +11,12 @@ LREC2018
 ## 概要
 今まで文面の感情アノテーションはされてきたが、文脈を考慮したアノテーションがされていないという問題点
 があり、文脈考慮型のアノテーション方法としてアノテーション時に対話全文の提示することを提案する。
-今までのラベル付けと分類問題の精度を比べたところ、優位に高い値となっており、
-前後の文脈を考慮した感情ラベル付けをすることでより感情豊かな発話生成などに繋げられる。
+今までのラベル付けと分類問題の精度を比べたところ、優位に高い値となった。
 
 ## 先行研究と比べてここがすごい
 大規模な対話データに感情ラベル付けを行う際に、上層的な文面だけでなく内容を考慮したアノテーションを
-行う。アノテーションの一致率(kappa係数)従来より高く、分類タスクでは以前のラベル付けデータを用いた場合よりも感情分類精度が向上した。
+行う。アノテーションの一致率(kappa係数)は中程度に保ちながら、
+分類タスクでは以前のラベル付けデータを用いた場合よりも感情分類精度が向上した。
 
 * 同じ文面でも、文脈によって感情の捉え方が変わる発話文（"Okay!"）の例
 ![figure2](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam2.png)
@@ -28,12 +28,13 @@ LREC2018
   ![figure3](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam3.png)
 
 * 分類タスクでは、CNNとCNN-BiLSTMを使用
-
+  * 分類器：contextual LSTM (感情ラベルは文脈に依存するので文脈考慮型のモデルを採用)を使用
+  
 ## 有効性の評価
 ### データセット
 * 構築コーパス１：Friends　(FriendsTVのデータをアノテーション)
   * FriendsTVの会話ログ１～９回目を使用
-  * 5=9, 10~14, 15~19, 20~24 それぞれの発話長に区切ってその中から250発話をランダムに抽出
+  * 5 ~ 9, 10 ~ 14, 15 ~ 19, 20 ~ 24 それぞれの発話長に区切ってその中から250発話をランダムに抽出
   ![figure1](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam1.png)
 
 * 構築コーパス２：EmotionPush　(FriendsTVのデータをアノテーション)
@@ -47,9 +48,7 @@ LREC2018
 Kappa係数と分類タスクの精度をベースラインのコーパスと比較
 * Kappa係数：0.33以上なので中程度
 * 分類精度(the weighted accuracy...WA, the unweighted accurracy...UWA)
-  * 分類器：contextual LSTM (感情ラベルは文脈に依存するので文脈考慮型のモデルを採用)
-　* CNN と CNN-BiLSTMを使った場合の精度比較
-  * 
+　
 
 ## その他の議論
 * 分類タスクでは、感情によってばらつきが大きくFearの精度が０になっていたり、全体を見てもFriendsのほうが高い項目が
