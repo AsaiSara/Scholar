@@ -1,11 +1,9 @@
 # [EmotionLines: An Emotion Corpus of Multi-Party Conversations](http://www.lrec-conf.org/proceedings/lrec2018/pdf/581.pdf)
 ### 著者
-Sheng-Yeh Chen1, Chao-Chun Hsu1, Chuan-Chun Kuo1,
-Ting-Hao (Kenneth) Huang2, Lun-Wei Ku1
+Sheng-Yeh Chen, Chao-Chun Hsu, Chuan-Chun Kuo,
+Ting-Hao (Kenneth) Huang, Lun-Wei Ku
 Academia Sinica, Taiwan
 Carnegie Mellon University, USA
-1falan012102, joe32140, william0617, lwkug@iis.sinica.edu.tw
-2tinghaoh@cs.cmu.edu
 
 ### 会議名
 LREC2018
@@ -45,7 +43,7 @@ Kappa係数と分類タスクの精度をベースラインのコーパスと比
 contextの意味とかがあんまりよくわかっていない
 
  ![figure1](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam1.png)
- ![figure2](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus__exam2.png)
- ![figure3](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus__exam3.png)
+ ![figure2](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam2.png)
+ ![figure3](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam3.png)
  ![figure4](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam4.png)
  ![figure5](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_result1.png)
