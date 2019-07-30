@@ -27,8 +27,10 @@ Format
     ## 次に読むべき論文
 
     ## コメント
+  
 
 Figure URL
+
     \!\[figure](https://github.com/AsaiSara/Scholar/blob/master/picture/~.png)
 
 
