@@ -1,12 +1,8 @@
 # [Dialogue Scenario Collection of Persuasive Dialogue with Emotional Expressions via Crowdsourcing](http://www.lrec-conf.org/proceedings/lrec2018/summaries/462.html)
 
 ### 著者
-Koichiro Yoshino1;2, Yoko Ishikawa1, Masahiro Mizukami1,
-Yu Suzuki1, Sakti Sakriani1, and Satoshi Nakamura1
-1Graduate School of Information Science, Nara Institute of Science and Technology,
-8916-5, Takayama-cho, Ikoma, 6300192, Japan
-2PRESTO, Japan Science and Technology Agency, 4-1-8 Hon-machi, Kawaguchi, Saitama 332-0012, Japan
-fkoichiro, ishikawa.yoko.io5, masahiro-mi, ssakti, ysuzuki, s-nakamurag@is.naist.jp
+Koichiro Yoshino, Yoko Ishikawa, Masahiro Mizukami,
+Yu Suzuki, Sakti Sakriani, and Satoshi Nakamura
 
 ### 会議名
 LREC2018
@@ -14,7 +10,7 @@ LREC2018
 ## 概要
 * 感情ラベル及び受諾度合いラベル付きの説得対話データを、クラウドソーシングサービスによってクラウドワーカーに作成してもらう
 * 評価は、アノテーション一致度と構築したシステムの人手評価を行う
-* 一致度はデータクリーニング後中程度で、システムの評価では人間性と親密性の向上、自然性と説得性の低下がみられた。
+* 結果は、アノテーション一致度は中程度で、システムの評価では人間性と親密性の向上、自然性と説得性の低下がみられた。
 
 
 ＝＝＝＝＝＝＝＝＝（メモ）＝＝＝＝＝＝＝＝＝＝＝
@@ -28,7 +24,7 @@ LREC2018
 ## 先行研究と比べてここがすごい
 統計的な対話データ収集方法がよくとられているが新しいタスクに従うデータ収集が困難である。また、
 感情表現を含むデータ収集においては、親しい関係間の実対話が求められるがWEB上で収録することは困難である。
-そのため、本研究ではクラウドワーカーがシナリオを作成し、その後にアノテーションを行う方法を用いた
+そのため、本研究ではクラウドワーカーがシナリオを作成し、その後に感情ラベルと受諾度ラベルのアノテーションを行い
 感情ラベル付き説得対話データを収集する。
 
 ## 手法のキモ
@@ -53,18 +49,21 @@ LREC2018
 
 * 感情ラベルは3人にアノテーションしてもらい、3人とも一致しない場合はNONEとする。
 * 全体的にポジティブが少なく、ネガティブが多い。
+* 受諾度ラベルは低い値のほうが多い
+
+  * 受諾度ラベルは5段階で3人に着けてもらう
+
+![collect](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_collect1.png)
 
 ![data2](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data2.png)
 
-* 受諾度ラベルは5段階で3人に着けてもらう
+* Kappa係数(データセットごとに上の表に示している)
+  * 感情ラベルについては0.4を超えており、受諾度ラベルについては超えていないが二乗誤差において一致率が高いことを確認
 
-![collect](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_collect1.png)
 
 ![data3](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data3.png)
 
 ### 評価尺度
-* Kappa係数(データセットごとに上の表に示している)
-  * 感情ラベルについては0.4を超えており、受諾度ラベルについては超えていないが二乗誤差において一致率が高いことを確認
 * システムの人手評価
   *  自然性、説得性は感情によって低下、人間性、親密性は感情によって向上
 
