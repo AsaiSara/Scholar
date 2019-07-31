@@ -1,0 +1,64 @@
+# [Dialogue Scenario Collection of Persuasive Dialogue with Emotional
+Expressions via Crowdsourcing](http://www.lrec-conf.org/proceedings/lrec2018/summaries/462.html)
+
+### 著者
+Koichiro Yoshino1;2, Yoko Ishikawa1, Masahiro Mizukami1,
+Yu Suzuki1, Sakti Sakriani1, and Satoshi Nakamura1
+1Graduate School of Information Science, Nara Institute of Science and Technology,
+8916-5, Takayama-cho, Ikoma, 6300192, Japan
+2PRESTO, Japan Science and Technology Agency, 4-1-8 Hon-machi, Kawaguchi, Saitama 332-0012, Japan
+fkoichiro, ishikawa.yoko.io5, masahiro-mi, ssakti, ysuzuki, s-nakamurag@is.naist.jp
+
+### 会議名
+LREC2018
+
+## 概要
+感情ラベル及び受諾度合いラベル付きの説得対話データを、クラウドソーシングサービスによってクラウドワーカーに作成してもらう
+方法で収集する。評価は、アノテーション一致度と構築したシステムの人手評価を行う。
+一致度はデータクリーニング後中程度であることが確認され、システムの評価では人間性と親密性の向上、自然性と説得性の低下がみられた。
+
+（メモ）
+対話データの収集が行われている中、実際の対話を収録したりWoZを用いるのはコストがかかる。本研究ではクラウドワーカーに
+シナリオを作成してもらう収集方法によって、感情表現を用いる説得対話のデータをクラウドソーシングによって収集した。
+5つのシナリオについて200対話ずつを収集し計1000のシナリオを収集し、感情状態と受諾度合いのアノテーションを行った。
+評価では、収集データを用いて説得対話システムを構築し、クラウドワーカーによって相互作用について評価してもらった。
+評価結果から、収集時のトレーニングを課したとしたら、収集したラベルが十分な一致度であることがわかる。
+
+## 先行研究と比べてここがすごい
+統計的な対話データ収集方法がよくとられているが新しいタスクに従うデータ収集が困難である。また、
+感情表現を含むデータ収集においては、親しい関係間の実対話が求められるがWEB上で収録することは困難である。
+そのため、本研究ではクラウドワーカーがシナリオを作成し、その後にアノテーションを行う方法を用いた
+感情ラベル付き説得対話データを収集する。
+
+## 手法のキモ
+* クラウドワーカーに対話をインストラクションに沿って一から考えてもらうデータ収集方法を取る
+* 感情ラベルに加えて受諾度ラベルのアノテーションを行うことで、両方の遷移を考慮したシステムを構築する
+![collect](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_collect1.png)
+![system1](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_system1.png)
+
+## 有効性の評価
+* アノテーションラベル(感情ラベル、受諾度ラベル)の一致度
+* データを用いて構築した説得対話システムの(感情を用いた場合と用いない場合の)人手評価
+### データセット
+感情ラベルと受諾度ラベルの付いた説得対話データ
+![data1](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data1.png)
+![data2](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data2.png)
+![data3](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data3.png)
+
+### 評価尺度
+![result1](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_result1.png)
+
+## その他の議論
+
+## 次に読むべき論文
+
+## コメント
+Figure URL
+
+
+
+
+
+
+
+![system2](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_system2.png)
