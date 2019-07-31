@@ -12,11 +12,13 @@ fkoichiro, ishikawa.yoko.io5, masahiro-mi, ssakti, ysuzuki, s-nakamurag@is.naist
 LREC2018
 
 ## 概要
-感情ラベル及び受諾度合いラベル付きの説得対話データを、クラウドソーシングサービスによってクラウドワーカーに作成してもらう
-方法で収集する。評価は、アノテーション一致度と構築したシステムの人手評価を行う。
-一致度はデータクリーニング後中程度であることが確認され、システムの評価では人間性と親密性の向上、自然性と説得性の低下がみられた。
+* 感情ラベル及び受諾度合いラベル付きの説得対話データを、クラウドソーシングサービスによってクラウドワーカーに作成してもらう
+* 評価は、アノテーション一致度と構築したシステムの人手評価を行う
+* 一致度はデータクリーニング後中程度で、システムの評価では人間性と親密性の向上、自然性と説得性の低下がみられた。
 
-（メモ）
+
+＝＝＝＝＝＝＝＝＝（メモ）＝＝＝＝＝＝＝＝＝＝＝
+
 対話データの収集が行われている中、実際の対話を収録したりWoZを用いるのはコストがかかる。本研究ではクラウドワーカーに
 シナリオを作成してもらう収集方法によって、感情表現を用いる説得対話のデータをクラウドソーシングによって収集した。
 5つのシナリオについて200対話ずつを収集し計1000のシナリオを収集し、感情状態と受諾度合いのアノテーションを行った。
@@ -36,6 +38,7 @@ LREC2018
   * アノテーションは1発話を3人に着けてもらい、3人とも一致しない場合をNONEとして扱う
 * ラベルを用いて両方の遷移を考慮したシステムを構築する
   * Belief-desireモデルを参照
+
 ![system1](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_system1.png)
 
 ![system2](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_system2.png)
@@ -50,9 +53,11 @@ LREC2018
 
 * 感情ラベルは3人にアノテーションしてもらい、3人とも一致しない場合はNONEとする。
 * 全体的にポジティブが少なく、ネガティブが多い。
+
 ![data2](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data2.png)
 
 * 受諾度ラベルは5段階で3人に着けてもらう
+
 ![collect](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_collect1.png)
 
 ![data3](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_data3.png)
@@ -62,6 +67,7 @@ LREC2018
   * 感情ラベルについては0.4を超えており、受諾度ラベルについては超えていないが二乗誤差において一致率が高いことを確認
 * システムの人手評価
   *  自然性、説得性は感情によって低下、人間性、親密性は感情によって向上
+
 ![result1](https://github.com/AsaiSara/Scholar/blob/master/picture/Dialogue_sinario_collection_of_persuasive_LRECishikawa_result1.png)
 
 
