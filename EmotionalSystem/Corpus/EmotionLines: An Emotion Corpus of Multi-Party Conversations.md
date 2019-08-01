@@ -21,8 +21,12 @@ LREC2018
 行う。アノテーションの一致率(kappa係数)は中程度に保ちながら、
 分類タスクでは以前のラベル付けデータを用いた場合よりも感情分類精度が向上した。
 
+* 文脈が捉えられていないアノテーション例
+![figure1](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam1.png)
+
 * 同じ文面でも、文脈によって感情の捉え方が変わる発話文（"Okay!"）の例
 ![figure2](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam2.png)
+
 
 ## 手法のキモ
 * アノテーションでは対話文すべてを提示して文脈を見てもらいながら、その発話を7感情のうち1感情でラベル付けしてもう
@@ -40,8 +44,6 @@ LREC2018
   * FriendsTVの会話ログ１～９回目を使用
   * 5 ~ 9, 10 ~ 14, 15 ~ 19, 20 ~ 24 それぞれの発話長に区切ってその中から250発話をランダムに抽出
  
- ![figure1](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam1.png)
-
 * 構築コーパス２：EmotionPush　(FriendsTVのデータをアノテーション)
   * Facebookのメッセンジャーの友達同士の会話（30分以下の会話で、間に300秒以上挟まないもの）
   * カテゴリ分けと抽出はベースラインと同様
@@ -49,7 +51,6 @@ LREC2018
  
 ![figure4](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_exam4.png) 
 
-![figure5](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_result1.png)
  
 ### 評価尺度
 Kappa係数と分類タスクの精度をベースラインのコーパスと比較
@@ -57,6 +58,8 @@ Kappa係数と分類タスクの精度をベースラインのコーパスと比
 * 分類精度(the weighted accuracy...WA, the unweighted accurracy...UWA)
   * CNN と CNN-BiLSTM(Topicとしてラベルを入れる)で比較
     * ラベルを考慮したほうが精度が良くなったのでラベルの信頼性が確認される
+
+![figure5](https://github.com/AsaiSara/Scholar/blob/master/picture/EmotionLines_LRECcorpus_result1.png)
 
 ## その他の議論
 * 分類タスクでは、感情によってばらつきが大きくFearの精度が０になっていたり、全体を見てもFriendsのほうが高い項目が
