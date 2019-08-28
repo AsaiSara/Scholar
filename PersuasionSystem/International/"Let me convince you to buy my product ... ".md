@@ -1,5 +1,4 @@
-# ["Let me convince you to buy my product ... "
-A Case Study of an Automated Persuasive System for Fashion Products](https://arxiv.org/pdf/1709.08366.pdf)
+# ["Let me convince you to buy my product ... "　A Case Study of an Automated Persuasive System for Fashion Products](https://arxiv.org/pdf/1709.08366.pdf)
 ML4Creativity’17, August 2017, Nova Scotia, Canad
 
 ## 論文の特徴
