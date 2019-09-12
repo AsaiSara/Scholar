@@ -24,7 +24,9 @@ ACL 2019 as a long paper
 一から説得対話データを収集し、発話ごとに戦略をアノテーションすることで、発話からの戦略の分類を行うモデルを構築している。
 
 * データ収集：被験者は個人性(性格判断)テストの後、片方に寄付を募る説得を行う。そして、両者に意図した寄付金を入力してもらったうえで、年齢や収入などの情報を記入してもらう。(個人情報を説得者の戦略と説得される者の個人性を抽出出来るような収集設定)
+
 ![data1](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_data1.png)
+
 * アノテーション方法：10種類の説得の戦略でランダムに選択された10対話中の1発話ずつをアノテーションしてもらい、4人に評価(適切でない場合は修正)を二回行ってもらう。
 * 寄付を促す戦略(Dnation strategy)の分類モデルの構築
   * hybrid RCNN model(CNNとRNNを結合させglobalとlocal両方のsemanticsを抽出できるモデル)を使用する特徴量
@@ -33,10 +35,9 @@ ACL 2019 as a long paper
     * Turn position embedding：ターンごとに戦略分布が違うので、10次元のベクトル
     * Sentiment：VADER (Gilbert, 2014)を使って感情分類をした結果←Emotion appeal は共感を誘う発話によってnegativeが多かったがLogical appeal ではpositiveが多かった
     * Character embedding : pre-trained multiplicative LSTMを使用(4096次元→5次元)
-  * 実験（モデルの分類評価(1文の中に複数戦略カテゴリがある場合突出した戦略を予測)）
-
-    
+ 
 ![model](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_model.png)
+
 
 ## 有効性の評価
 戦略に分類するモデルを構築し、モデルと特徴量ごとの精度比較を行っている。
@@ -47,31 +48,46 @@ ACL 2019 as a long paper
     
 ### データセット
 * データ数(1対話最低10ターン)
+
 ![data2](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_data2.png)
+
 * ラベルの種類(10戦略)(発話は文単位でアノテーション)
   * persuasive appeal(6種類)：Logical appeal, Emotion appeal, credibility appeal, Foot-in-the-door appeal, Self-modeling, Personal story
   * persuasive inquiry(3種類)：Source-related inquiry, Task-related inquiry, Personal-related inquiry
   * Non-persuasive dialogue act
-* ターンごとのラベル比率
+* ターンごとのラベル比率　-> ターン数情報は10次元ベクトルに圧縮してモデルの学習に使う
+
 ![data3](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_data3.png)
+
 ![data4](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_data4.png)
+
+* 個人性テストの結果(Big-Five)：extrovert, agreeable, conscientious, neutrotic, open　に分類される
     
 ### 評価尺度 : 精度 / macro F1
+
 ![result1](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_result1.png)
 
 ## その他の議論
+* 最後に、Strategy, Donation, Psychological Backgrounds それぞれの相関を見ている
 * 寄付割合が高かった被験者の特徴(相関係数が高い)
+  * (Strategy & Donation) 
   * 寄付に興味のある人は詳しく聞くので、Donation informationの戦略の対話
+  * (Psychological & Donation)
   * 参加者の年齢が高いほど寄付割合が高い
   * personarity testでaggreeableと判断された被験者
   * 誰かを世話している被験者
   * 直感的な人より、論理的決定をする被験者
-* 対話では寄付に承諾したが実際寄付金が少なかったまたは寄付しなかった人について
-  *  236人中11%が寄付金が少なく、43%は寄付をせず、3%は寄付金を増やした
+* (Psychological & Donation) 対話では寄付に承諾したが実際寄付金が少なかったまたは寄付しなかった人
+  * 236人中11%が寄付金が少なく、43%は寄付をせず、3%は寄付金を増やした
+  * こうした意図しない寄付金割合をBig-Fiveの結果からRegressionしてみたがデータ数が足りなかった
+* (Strategy & Psychological) 説得受諾者の特徴によって効果的な戦略が変わる
+  * Source related inquiryはopenに分類される人に対しては顕著に効果的
+  * Personal related inquiryはfreedomやcareを指示する人々に効果的
   
 ## 次に読むべき論文
 
 ## コメント
+* 一概にどの戦略がどの場面で効くのかは分からない
 
 ## メモ
 * FC-layer : Fully-Connected layer
