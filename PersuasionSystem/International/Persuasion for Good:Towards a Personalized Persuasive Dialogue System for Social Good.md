@@ -26,14 +26,21 @@ ACL 2019 as a long paper
 * データ収集：被験者は個人性(性格判断)テストの後、片方に寄付を募る説得を行う。そして、両者に意図した寄付金を入力してもらったうえで、年齢や収入などの情報を記入してもらう。(個人情報を説得者の戦略と説得される者の個人性を抽出出来るような収集設定)
 
 * アノテーション：1発話ずつ戦略種類ラベル(計10種類)を付ける。
-
-  * 戦略
+  * ラベルの種類(10戦略)
     * persuasive appeal(6種類)：Logical appeal, Emotion appeal, credibility appeal, Foot-in-the-door appeal, Self-modeling, Personal story
     * persuasive inquiry(3種類)：Source-related inquiry, Task-related inquiry, Personal-related inquiry
     * Non-persuasive dialogue act
-  
-  * 方法：10種類の説得の戦略でランダムに選択された10対話中の1発話ずつをアノテーションしてもらい、4人に評価(適切腕ない場合修正)を二回行ってもらう(クリッペン信頼度0.70)。
-
+  * 方法：10種類の説得の戦略でランダムに選択された10対話中の1発話ずつをアノテーションしてもらい、4人に評価(適切でない場合は修正)を二回行ってもらう。
+* 寄付戦略の分類モデルの構築
+  * hybrid RCNN model(CNNとRNNを結合させglobalとlocal両方のsemanticsを抽出できるモデル)を使用
+    * Sentence embedding : word embeddingとLSTMのhiddenを結合し、max-pooling layerに入力することで意味的翻訳をする。最後にpooling lyaerで全体から効果的な情報を取得する。
+    * Context embedding : 説得を受ける側の発話をLSTMにかけたembedding 
+    * Turn position embedding：ターンごとに戦略分布が違うので、10次元のベクトル
+    * Sentiment：VADER (Gilbert, 2014)を使って感情分類をした結果←Emotion appeal は共感を誘う発話によってnegativeが多かったがLogical appeal ではpositiveが多かった
+    * Character embedding : pre-trained multiplicative LSTMを使用(4096次元→5次元)
+    
+    
+![model]()
 
 ## 有効性の評価
 
@@ -47,3 +54,6 @@ ACL 2019 as a long paper
 ## 次に読むべき論文
 
 ## コメント
+
+## メモ
+* FC-layer : Fully-Connected layer
