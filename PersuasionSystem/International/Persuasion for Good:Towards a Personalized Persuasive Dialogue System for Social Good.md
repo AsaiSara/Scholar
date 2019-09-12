@@ -52,7 +52,7 @@ ACL 2019 as a long paper
 ![data2](https://github.com/AsaiSara/Scholar/blob/master/picture/Persuasion_for_Good_data2.png)
 
 * ラベルの種類(10戦略)(発話は文単位でアノテーション)
-  * persuasive appeal(6種類)：Logical appeal, Emotion appeal, credibility appeal, Foot-in-the-door appeal, Self-modeling, Personal story
+  * persuasive appeal(6種類)：Logical appeal, Emotion appeal(Hibbert 07), credibility appeal, Foot-in-the-door appeal, Self-modeling, Personal story
   * persuasive inquiry(3種類)：Source-related inquiry, Task-related inquiry, Personal-related inquiry
   * Non-persuasive dialogue act
 * ターンごとのラベル比率　-> ターン数情報は10次元ベクトルに圧縮してモデルの学習に使う
@@ -90,8 +90,32 @@ ACL 2019 as a long paper
 * 生成した文が適切か判別不能かどちらかなのかを確かめることが必要
 
 ## 次に読むべき論文
+* 最新の説得システムについて (結局識別モデルばかり)
+ * ファッションについてのhierarlchical nn の戦略識別モデル
+　
+ * 説得性予測モデル
+
+
+
+* corpus 収集について (personaでのラベル付け)
+aizheng Zhang, Emily Dinan, Jack Urbanek, Arthur
+Szlam, Douwe Kiela, and Jason Weston. 2018. Personalizing
+dialogue agents: I have a dog, do you
+have pets too? In Proceedings of the 56th Annual
+Meeting of the Association for Computational Linguistics
+(Volume 1: Long Papers), volume 1, pages
+2204–2213.
+
+* emotion appeal について
+Sally Hibbert, Andrew Smith, Andrea Davies, and
+Fiona Ireland. 2007. Guilt appeals: Persuasion
+knowledge and charitable giving. Psychology &
+Marketing, 24(8):723–742.
+
+
 
 ## コメント
+* 深層学習技術に影響を与えるかどうかがどこまで重要なのか
 * 一概にどの戦略がどの場面で効くのかは分からない
 
 ## メモ
